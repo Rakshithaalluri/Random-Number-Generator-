@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  border-color: #e4ebf3;
+  border-width: 1px;
+  background-color: #ffffff;
+  border-style: solid;
+  box-shadow: #e4ebf3;
+}
+
+.heading {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.text {
+  color: #333333;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
+  padding: 50px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+.count {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: bold;
+}
